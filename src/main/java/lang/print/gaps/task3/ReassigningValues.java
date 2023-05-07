@@ -4,7 +4,7 @@ public class ReassigningValues {
     public static void main(String[] args) {
         int first = 1, second = 10, third = 100;
 
-        System.out.println(first + "\n" + second + "\n" + third );
+        System.out.println(first + "\n" + second + "\n" + third);
 
         int linkToFirst = first , linkToSecond = second , linkToThird = third;
 
@@ -12,6 +12,6 @@ public class ReassigningValues {
         second = 6;
         third = 4;
 
-        System.out.println(first + "\n" + second + "\n" + third + "\n" + linkToFirst + "\n" + linkToSecond + "\n" + linkToThird + "\n");
+        System.out.println(first + "\n" + second + "\n" + third + "\n" + linkToFirst + "\n" + linkToSecond + "\n" + linkToThird);
     }
 }
